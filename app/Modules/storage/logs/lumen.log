@@ -1,0 +1,12 @@
+[2018-04-11 01:18:54] lumen.ERROR: Symfony\Component\Debug\Exception\FatalThrowableError: Class 'Route' not found in C:\wamp64\www\lumen_optools\app\Modules\Site\routes.php:8
+Stack trace:
+#0 C:\wamp64\www\lumen_optools\app\Modules\ModulesServiceProvider.php(23): include()
+#1 [internal function]: App\Modules\ModulesServiceProvider->boot()
+#2 C:\wamp64\www\lumen_optools\vendor\illuminate\container\BoundMethod.php(29): call_user_func_array(Array, Array)
+#3 C:\wamp64\www\lumen_optools\vendor\illuminate\container\BoundMethod.php(87): Illuminate\Container\BoundMethod::Illuminate\Container\{closure}()
+#4 C:\wamp64\www\lumen_optools\vendor\illuminate\container\BoundMethod.php(31): Illuminate\Container\BoundMethod::callBoundMethod(Object(Laravel\Lumen\Application), Array, Object(Closure))
+#5 C:\wamp64\www\lumen_optools\vendor\illuminate\container\Container.php(539): Illuminate\Container\BoundMethod::call(Object(Laravel\Lumen\Application), Array, Array, NULL)
+#6 C:\wamp64\www\lumen_optools\vendor\laravel\lumen-framework\src\Application.php(178): Illuminate\Container\Container->call(Array)
+#7 C:\wamp64\www\lumen_optools\bootstrap\app.php(91): Laravel\Lumen\Application->register(Object(App\Modules\ModulesServiceProvider))
+#8 C:\wamp64\www\lumen_optools\public\index.php(14): require('C:\\wamp64\\www\\l...')
+#9 {main}  
